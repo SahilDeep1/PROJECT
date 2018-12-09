@@ -1,0 +1,40 @@
+Using the following : data_path = /home/sahildeep/PROJECT/data/ml-10m/ratings.dat , latent_factors = 5 , batch_size = 50000 , n_epochs = 20 , Initial 
+Learning Rate = 0.001 , regularizationCoeff = 0.02 baseline = 0 regularization_switch = 2
+Loading data...
+Loading and pre-processing time = 94.02074241638184 seconds
+Training Epochs :
+2018-12-08 09:54:09.537870: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not c$mpiled to use: AVX2 FMA
+epoch: 1, loss_value: 1.0578780463023216
+epoch: 2, loss_value: 0.9583660971303904
+epoch: 3, loss_value: 0.8925803277803503
+epoch: 4, loss_value: 0.8504328642572675
+epoch: 5, loss_value: 0.8206562137011415
+epoch: 6, loss_value: 0.8028780884624268
+epoch: 7, loss_value: 0.786417427640524
+epoch: 8, loss_value: 0.7736012156335463
+epoch: 9, loss_value: 0.7687399513232782
+epoch: 10, loss_value: 0.760492884224246
+epoch: 11, loss_value: 0.7569182711358396
+epoch: 12, loss_value: 0.7510291097327049
+epoch: 13, loss_value: 0.7471714471437916
+epoch: 14, loss_value: 0.7445490678645069
+epoch: 15, loss_value: 0.7428691072493606
+epoch: 16, loss_value: 0.7411851823700141
+epoch: 17, loss_value: 0.7409727839949709
+epoch: 18, loss_value: 0.7414670490330051
+epoch: 19, loss_value: 0.7364396110454702
+epoch: 20, loss_value: 0.7378665978864113
+Training time = 587.5607318878174 seconds
+Testing on the training set
+RMSE = 0.8579096794128418
+MAE = 0.6636863350868225
+Testing time on Training dataset = 31.9358389377594 seconds
+Testing on the test set
+RMSE = 0.8655708432197571
+MAE = 0.6696248054504395
+Testing time on Test dataset = 6.910384178161621 seconds
+
+real    12m10.355s
+user    12m9.836s
+sys     0m59.740s
+

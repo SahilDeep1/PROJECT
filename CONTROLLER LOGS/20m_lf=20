@@ -1,0 +1,39 @@
+
+sahildeep@turing:~/PROJECT/code$ python3 main_local.py --data_path=../data/ml-20m/ratings.csv --batch_size=50000 --latent_factors=20         
+Using the following : data_path = ../data/ml-20m/ratings.csv , latent_factors = 20 , batch_size = 50000 , n_epochs = 20 , Initial Learning Rate = 0.001 , regularizationCoeff = 0.02 baseline = 0 regularization_switch = 2
+Loading data...
+Loading and pre-processing time = 198.93995833396912 seconds
+Training Epochs :
+2018-12-08 12:28:31.159499: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+epoch: 1, loss_value: 1.0010255008843085
+epoch: 2, loss_value: 0.873703151662773
+epoch: 3, loss_value: 0.8145013397727799
+epoch: 4, loss_value: 0.7832894737475387
+epoch: 5, loss_value: 0.7650256368601434
+epoch: 6, loss_value: 0.7529930626491891
+epoch: 7, loss_value: 0.7450965399682707
+epoch: 8, loss_value: 0.7392858615916837
+epoch: 9, loss_value: 0.7357372598856038
+epoch: 10, loss_value: 0.7323322455831035
+epoch: 11, loss_value: 0.7307234066669072
+epoch: 12, loss_value: 0.728570701548615
+epoch: 13, loss_value: 0.7281200973044303
+epoch: 14, loss_value: 0.7259550428836146
+epoch: 15, loss_value: 0.7256968552449782
+epoch: 16, loss_value: 0.7254913657253776
+epoch: 17, loss_value: 0.7241447852036663
+epoch: 18, loss_value: 0.7238143554357724
+epoch: 19, loss_value: 0.7236483741400769
+epoch: 20, loss_value: 0.7228812870578231
+Training time = 1458.5342690944672 seconds
+Testing on the training set
+2018-12-08 12:53:03.729160: W tensorflow/core/framework/allocator.cc:122] Allocation of 1280016800 exceeds 10% of system memory.
+2018-12-08 12:53:03.729180: W tensorflow/core/framework/allocator.cc:122] Allocation of 1280016800 exceeds 10% of system memory.
+RMSE = 0.849463164806366
+MAE = 0.6520922780036926
+Testing time on Training dataset = 63.811415672302246 seconds
+Testing on the test set
+^[RMSE = 0.8578721284866333                                 
+MAE = 0.6582680344581604
+Testing time on Test dataset = 13.419645309448242 seconds
+

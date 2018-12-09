@@ -1,0 +1,36 @@
+sahildeep@turing:~/PROJECT/code$ python3 main_local.py --data_path=../data/ml-20m/ratings.csv --latent_factors=5 --batch_size=50000
+Using the following : data_path = ../data/ml-20m/ratings.csv , latent_factors = 5 , batch_size = 50000 , n_epochs = 20 , Initial Learning Rate = 0.001 , regularizationCoeff = 0.02 baseline = 0 regularization_switch = 2
+Loading data...
+Loading and pre-processing time = 221.19482159614563 seconds
+Training Epochs :
+2018-12-09 13:15:14.204071: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+epoch: 1, loss_value: 1.0007297496929346
+epoch: 2, loss_value: 0.8733590462497461
+epoch: 3, loss_value: 0.8142923989399943
+epoch: 4, loss_value: 0.7827953779808828
+epoch: 5, loss_value: 0.7649334936498482
+epoch: 6, loss_value: 0.7530457945627587
+epoch: 7, loss_value: 0.745178647687502
+epoch: 8, loss_value: 0.7396808405902898
+epoch: 9, loss_value: 0.7350748760677944
+epoch: 10, loss_value: 0.7327540747101805
+epoch: 11, loss_value: 0.7306540292742839
+epoch: 12, loss_value: 0.7286280794678447
+epoch: 13, loss_value: 0.7276107902838805
+epoch: 14, loss_value: 0.7262815218476862
+epoch: 15, loss_value: 0.7253032046315083
+epoch: 16, loss_value: 0.7247616641246641
+epoch: 17, loss_value: 0.7242751728708499
+epoch: 18, loss_value: 0.7239761502943306
+epoch: 19, loss_value: 0.7234569340480079
+epoch: 20, loss_value: 0.7228001575232295
+Training time = 1546.9191739559174 seconds
+Testing on the training set
+RMSE = 0.849459171295166
+MAE = 0.6521041989326477
+Testing time on Training dataset = 83.50950479507446 seconds
+Testing on the test set
+RMSE = 0.8578726649284363
+MAE = 0.6582877039909363
+Testing time on Test dataset = 14.289336204528809 seconds
+

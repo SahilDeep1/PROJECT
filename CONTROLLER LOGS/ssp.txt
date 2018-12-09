@@ -1,0 +1,39 @@
+st:6062, 1 -> 10.24.1.204:6062}
+2018-12-08 10:44:55.820408: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:6062
+This is a worker node
+Using the following : data_path = /home/sahildeep/PROJECT/data/ml-1m/ratings.dat , latent_factors = 5 , batch_size = 500 , n_epochs = 20 , Initial Learning Rate = 0.001 , regularizationCoeff = 0.02 baseline = 0
+Loading data...
+Loading and pre-processing time = 19.84476399421692 seconds
+Training Epochs :
+records = 800167 iterations_per_epoch = 1601 last_step =  32020
+2018-12-08 10:45:40.075897: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 48e7b498217b0f10 with config: 
+global_step 3324, task:0, epoch:1, loss:1.0036991892346436 
+global_step 6971, task:0, epoch:2, loss:0.8395043715024874 
+global_step 10615, task:0, epoch:3, loss:0.8179297375723692 
+global_step 14075, task:0, epoch:4, loss:0.8121045248572488 
+global_step 17593, task:0, epoch:5, loss:0.8099478149250252 
+global_step 21293, task:0, epoch:6, loss:0.8089859481530961 
+global_step 25039, task:0, epoch:7, loss:0.8087043637487756 
+global_step 28774, task:0, epoch:8, loss:0.8083392160524062 
+global_step 32239, task:0, epoch:9, loss:0.8083622974578029 
+global_step 35689, task:0, epoch:10, loss:0.8082994180943801 
+global_step 39273, task:0, epoch:11, loss:0.8081644052717554 
+global_step 42841, task:0, epoch:12, loss:0.808151015596491 
+global_step 46474, task:0, epoch:13, loss:0.8080385097632328 
+global_step 50188, task:0, epoch:14, loss:0.8080585863276022 
+global_step 53879, task:0, epoch:15, loss:0.8080317675881205 
+global_step 57258, task:0, epoch:16, loss:0.8080447708942382 
+global_step 59201, task:0, epoch:17, loss:0.8084401118986164 
+global_step 60802, task:0, epoch:18, loss:0.8085247168386079 
+global_step 62403, task:0, epoch:19, loss:0.8083822963239251 
+global_step 64004, task:0, epoch:20, loss:0.8084267231913227 
+Training time = 2481.50594997406 seconds
+Testing on the training set
+RMSE = 0.8968489766120911
+MAE = 0.7081166505813599
+Testing time on Training dataset = 5.401345729827881 seconds
+Testing on the test set
+RMSE = 0.9081586003303528
+MAE = 0.7171132564544678
+Testing time on test dataset = 1.3520114421844482 seconds
+

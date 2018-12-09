@@ -1,0 +1,39 @@
+Using the following : data_path = /home/sahildeep/PROJECT/data/ml-1m/ratings.dat , latent_factors = 5 , batch_size = 500 , n_epochs = 20 , Initial Learning Rate = 0.001 , regularizationCoeff = 0.02 baseline = 0
+Loading data...
+Loading and pre-processing time = 18.140559673309326 seconds
+Training Epochs :
+WARNING:tensorflow:From /home/sahildeep/.local/lib/python3.5/site-packages/tensorflow/python/training/sync_replicas_optimizer.py:335: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+records = 800167 iterations_per_epoch = 1601 last_step =  32020
+2018-12-08 10:43:04.613977: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 8d515691e7da3204 with config: 
+global_step 1408, task:0, epoch:1, loss:1.0652105120999005 
+global_step 3009, task:0, epoch:2, loss:0.8776161630104513 
+global_step 4610, task:0, epoch:3, loss:0.8350840239953726 
+global_step 6211, task:0, epoch:4, loss:0.8204764290424826 
+global_step 7812, task:0, epoch:5, loss:0.8141488480165852 
+global_step 9413, task:0, epoch:6, loss:0.8110327438813757 
+global_step 11014, task:0, epoch:7, loss:0.8094921546902677 
+global_step 12615, task:0, epoch:8, loss:0.8084641919889575 
+global_step 14216, task:0, epoch:9, loss:0.807985881728578 
+global_step 15817, task:0, epoch:10, loss:0.8076016006433986 
+global_step 17418, task:0, epoch:11, loss:0.8074551315176569 
+global_step 19019, task:0, epoch:12, loss:0.8073183332734521 
+global_step 20620, task:0, epoch:13, loss:0.8072311969789246 
+global_step 22221, task:0, epoch:14, loss:0.8071873497769357 
+global_step 23822, task:0, epoch:15, loss:0.8071091707463118 
+global_step 25424, task:0, epoch:16, loss:0.8071218925591634 
+global_step 27025, task:0, epoch:17, loss:0.8070732867397568 
+global_step 28626, task:0, epoch:18, loss:0.80701972189581 
+global_step 30227, task:0, epoch:19, loss:0.8070798541961947 
+global_step 31828, task:0, epoch:20, loss:0.8069807008457959 
+Training time = 3008.585966348648 seconds
+Testing on the training set
+RMSE = 0.8968586921691895
+MAE = 0.7082813382148743
+Testing time on Training dataset = 6.377995491027832 seconds
+Testing on the test set
+RMSE = 0.908078670501709
+MAE = 0.7171815037727356
+Testing time on test dataset = 1.252011775970459 seconds
+

@@ -1,0 +1,40 @@
+.203:6060, 1 -> localhost:6060}                                                                                                                  [0/0]
+2018-12-08 10:39:12.023819: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:381] Started server with target: grpc://localhost:6060
+This is a worker node
+Using the following : data_path = /home/sahildeep/PROJECT/data/ml-1m/ratings.dat , latent_factors = 5 , batch_size = 500 , n_epochs = 20 , Initial Le$rning Rate = 0.001 , regularizationCoeff = 0.02 baseline = 0
+Loading data...
+Loading and pre-processing time = 11.422899007797241 seconds
+Training Epochs :
+records = 800167 iterations_per_epoch = 1601 last_step =  32020
+2018-12-08 10:39:24.708326: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 60ff056db7ce37e6 with config:
+2018-12-08 10:39:54.938678: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 1f5fdad42b573b87 with config:
+global_step 3186, task:1, epoch:1, loss:0.9554546707351084
+global_step 6003, task:1, epoch:2, loss:0.8462263625312939
+global_step 8751, task:1, epoch:3, loss:0.8226102861964948
+global_step 11447, task:1, epoch:4, loss:0.814856882842908
+global_step 14094, task:1, epoch:5, loss:0.8117271650589533
+global_step 16799, task:1, epoch:6, loss:0.8101922823889861
+global_step 19608, task:1, epoch:7, loss:0.8094010489348841
+global_step 22291, task:1, epoch:8, loss:0.8090366613559615
+global_step 25019, task:1, epoch:9, loss:0.808840424325003
+global_step 27682, task:1, epoch:10, loss:0.8085366303960954
+global_step 30374, task:1, epoch:11, loss:0.8085280259574376
+global_step 33069, task:1, epoch:12, loss:0.808432083067337
+global_step 35819, task:1, epoch:13, loss:0.8081921006574398
+global_step 38491, task:1, epoch:14, loss:0.8082506670421693
+global_step 41234, task:1, epoch:15, loss:0.808303706054759
+global_step 43763, task:1, epoch:16, loss:0.8082157316467004
+global_step 46437, task:1, epoch:17, loss:0.8082169659580014
+global_step 49091, task:1, epoch:18, loss:0.8082180818046055
+global_step 51782, task:1, epoch:19, loss:0.8082404539854656
+global_step 54546, task:1, epoch:20, loss:0.8081709909334844
+Training time = 1450.49880027771 seconds
+Testing on the training set
+RMSE = 0.8969849944114685
+MAE = 0.7082329988479614
+Testing time on Training dataset = 4.2052998542785645 seconds
+Testing on the test set
+RMSE = 0.9083176851272583
+MAE = 0.7171999216079712
+Testing time on test dataset = 0.9834158420562744 seconds
+

@@ -1,0 +1,35 @@
+python3 main_local.py --data_path=/home/sahildeep/PROJECT/ml-100k/ratings.csv --baseline=0
+Using the following : data_path = /home/sahildeep/PROJECT/ml-100k/ratings.csv , latent_factors = 5 , batch_size = 500 , n_epochs = 20 , Initial Learning Rate = 0.001 , regularizationCoeff = 0.02 baseline = 0 regularization_switch = 2
+Loading data...
+Loading and pre-processing time = 0.6019818782806396 seconds
+Training Epochs :
+epoch: 1, loss_value: 1.0475049055652854
+epoch: 2, loss_value: 0.9773463364000674
+epoch: 3, loss_value: 0.923576631663758
+epoch: 4, loss_value: 0.8822296298580405
+epoch: 5, loss_value: 0.8489647022000065
+epoch: 6, loss_value: 0.8241805007428299
+epoch: 7, loss_value: 0.8032901467364512
+epoch: 8, loss_value: 0.7853912008397373
+epoch: 9, loss_value: 0.7717724836166994
+epoch: 10, loss_value: 0.7599794445214448
+epoch: 11, loss_value: 0.7489304259235476
+epoch: 12, loss_value: 0.739678019358788
+epoch: 13, loss_value: 0.7319244105874756
+epoch: 14, loss_value: 0.7246310504866235
+epoch: 15, loss_value: 0.7183824762885953
+epoch: 16, loss_value: 0.7126893386428739
+epoch: 17, loss_value: 0.7076557109385361
+epoch: 18, loss_value: 0.7028677430417802
+epoch: 19, loss_value: 0.6986172887278191
+epoch: 20, loss_value: 0.6940638014563808
+Training time = 19.71667194366455 seconds
+Testing on the training set
+RMSE = 0.8304361701011658
+MAE = 0.634082019329071
+Testing time on Training dataset = 0.16066431999206543 seconds
+Testing on the test set
+RMSE = 0.8754721879959106
+MAE = 0.6719024777412415
+Testing time on Test dataset = 0.03405022621154785 seconds
+
